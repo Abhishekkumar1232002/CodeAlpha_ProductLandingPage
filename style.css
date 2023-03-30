@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .nav {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+ }
+
+ .container1{
+    /* background-color: red; */
+    display: block;
+    height: 662px;
+    width: 100%;
+    overflow: hidden;
+ }
+
+ .right {
+    display: inline-block;
+    width: 50%;
+    overflow: hidden;
+ }
+
+ .left {
+    background-image: url('sonyMain.png');
+    display: inline-block;
+    height: 600px;
+    width: 50%;
+    background-repeat: round;
+    text-align: left;
+    /* border: 1px solid black; */
+    position: absolute;
+    overflow: hidden;
+
+ }
+ .left:hover{
+    transform: scale(1.1);
+ }
+
+ .bottom {
+    background-color: gray;
+    display: block;
+    height: 65px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 60px;
+    margin-top: 0PX;
+ }
+
+ .nav li {
+    display: inline;
+    text-align: center;
+ }
+
+ .nav li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 35px;
+ }
+
+ ul {
+    text-align: center;
+    padding: 13px;
+ }
+
+ li a:hover {
+    text-decoration: underline;
+    /* background-color: aliceblue; */
+ }
+
+ .right h2 {
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    padding-top: 200px;
+ }
+
+ .text {
+    display: inline;
+    width: 40%;
+ }
+ .right button{
+   margin-left: 300px;
+   margin-top: 30px;
+ }
+
+ .right h4 {
+    display: block;
+    text-align: center;
+    padding: 15px 50px;
+    line-height: 25px;
+ }
+ .container{
+       width: 100%;
+       height: 100vh;
+       background-color: rgb(225, 248, 248);
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: center;
+       gap: 7rem;
+       padding: 50px 0px;
+
+   }
+   .product{
+       height: 40vh;
+       width: 20vw;
+       background-color: rgb(229, 224, 224);
+       display: block;
+       box-shadow: 0 0 5px black;
+
+   }
+
+
+   .img{
+       height: 30vh;
+       width: 20vw;
+       /* background-color: violet; */
+
+   }
+   .button{
+       text-align: center;
+       padding-top: 10px;
+   }
+   button{
+       padding: 1rem;
+       border-radius: 10%;
+       color: white;
+       background-color: black;
+   }
+   button:hover{
+    opacity: .7;
+   }
+   img{
+       height: 30vh;
+       width: 20vw;
+
+   }
+   .product:hover{
+    transform: scale(1.1);
+   }
+   html{
+    scroll-behavior: smooth;
+   }
